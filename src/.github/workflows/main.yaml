@@ -1,7 +1,7 @@
 name: "Main CI"
 on: push
 jobs:
-    main-ci:
+    main-ci:        
         runs-on: "ubuntu-latest"
         steps:
             - name: "Checkout"
